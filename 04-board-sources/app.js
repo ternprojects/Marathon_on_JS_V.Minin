@@ -10,7 +10,7 @@ for (let i = 0; i < SQUARES_NUMBER; i++) {
   
   square.addEventListener('mouseleave', removeColor)
   
-    board.append(square)
+  board.append(square)
 }
 
 function setColor(event) {
@@ -27,5 +27,5 @@ function removeColor(event) {
 }
 
 function getRandomColor() {
- return colors[Math.floor(Math.random() * colors.length)] 
+  return colors[Math.floor(Math.random() * colors.length)] 
 }
